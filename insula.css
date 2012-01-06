@@ -1,8 +1,10 @@
 body {
 	padding-top: 60px;
 	background-image: url('field2.jpg');
-	background-position: center;
+	background-position: center top;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-color: black;
 }
 
 h1 {
@@ -40,6 +42,6 @@ h3 {
 	background-color: rgba(0, 0, 0, 0.7);
 }
 
-.well p {
+.well p  {
 	font-size: 14px;
 }
